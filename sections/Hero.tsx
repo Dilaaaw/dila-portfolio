@@ -138,12 +138,12 @@ export default function Hero() {
       desc: "Welcome to My Portfolio",
     },
     {
-      title: "DEVELOPER",
-      desc: "Creative Web Developer",
+      title: "DIGITAL OPERATONS & DATA SUPPORT",
+      desc: "Administrative & Data Support | IT & Digital Operations",
     },
     {
       title: "EXPERIENCES",
-      desc: "Crafting Digital Experiences",
+      desc: "Administration • Data • Digital Support",
     },
   ];
 

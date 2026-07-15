@@ -16,7 +16,7 @@ export default function About() {
   const [displayText, setDisplayText] = useState("");
   const [showSkills, setShowSkills] = useState(false);
 
-  const fullText = `Memahami dasar pengembangan aplikasi seperti sistem CRUD, autentikasi pengguna, serta pengelolaan database menggunakan MySQL maupun Firebase. Saat ini saya terus belajar dan mengembangkan kemampuan untuk membangun solusi digital yang rapi, efisien, dan sesuai kebutuhan pengguna.`;
+  const fullText = `Selain pengembangan aplikasi, saya juga memiliki pengalaman dalam pengelolaan data dan administrasi digital menggunakan sistem berbasis teknologi. Terbiasa bekerja dengan data, dokumen, serta tools seperti Microsoft Office dan database untuk memastikan informasi tersusun rapi, akurat, dan mudah diakses. Saat ini saya terus mengembangkan kemampuan dalam pengembangan aplikasi dan solusi digital untuk mendukung efisiensi kerja.`;
   const eduRef = useRef(null);
   const [showEdu, setShowEdu] = useState(false);
   const [hasTyped, setHasTyped] = useState(false);
@@ -219,8 +219,8 @@ useEffect(() => {
                 Lulusan <span className="font-semibold text-pink-500">
                   Teknik Informatika
                 </span>{" "}
-                yang memiliki minat dalam pengembangan aplikasi web dan mobile.
-                Saya terbiasa menggunakan{" "}
+                yang memiliki minat dalam pengembangan aplikasi web dan mobile,
+                pengelolaan data, dan administrasi digital. Terbiasa menggunakan teknologi seperti{" "}
                 <span className="font-semibold text-purple-500">
                   HTML, CSS, JavaScript, PHP
                 </span>{" "}
