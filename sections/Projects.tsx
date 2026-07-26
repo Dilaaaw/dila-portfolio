@@ -236,7 +236,7 @@ export default function ProjectsSection() {
         name: "Social Media Design – Fakultas Hukum UMP",
         shortDesc: "Desain konten media sosial untuk publikasi akademik dan institusi",
         images: [
-          "/projects/fh1.PNG",
+          "/projects/fh1.png",
         ],
         fullDesc: `Merancang berbagai konten media sosial resmi Fakultas Hukum Universitas Muhammadiyah Purwokerto untuk mendukung publikasi kegiatan akademik, seminar, pengumuman, prestasi mahasiswa, hari besar nasional, dan informasi institusi.
       
@@ -254,7 +254,6 @@ export default function ProjectsSection() {
       
       Tools:
       - Canva
-      - Adobe Photoshop (basic)
       - CapCut (untuk konten video sederhana)`
       },
     ],
