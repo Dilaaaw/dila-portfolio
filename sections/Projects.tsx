@@ -43,6 +43,46 @@ export default function ProjectsSection() {
   const projects: Record<TabType, Project[]> = {
     web: [
       {
+        name: "Website Klinik Prima Medika",
+        shortDesc: "Website company profile klinik berbasis Next.js",
+        images: [
+          "/projects/prima-medika.png",
+          "/projects/prima1.png",
+          "/projects/prima2.png",
+          "/projects/prima3.png",
+          "/projects/prima4.png",
+          "/projects/prima5.png",
+          "/projects/prima6.png",
+          "/projects/prima7.png",
+          "/projects/prima8.png",
+        ],
+        fullDesc: `Website company profile Klinik Prima Medika yang dikembangkan untuk memberikan informasi layanan kesehatan kepada masyarakat secara online.
+      
+      Fitur Utama:
+      - Halaman utama (Hero Section)
+      - Informasi layanan medis
+      - Slider informasi & pengumuman klinik
+      - Profil klinik (visi, misi, dan keunggulan)
+      - Kontak & integrasi Google Maps
+      - Login Admin
+      - Dashboard Admin
+      - Manajemen Data Pasien (CRUD)
+      - Manajemen Layanan Medis
+      - Manajemen Rawat Jalan
+      - Pengelolaan Slider Informasi Klinik
+      
+      Teknologi yang digunakan:
+      - Next.js
+      - React
+      - TypeScript
+      - Tailwind CSS
+      - Firebase Authentication
+      - Cloud Firestore
+      
+      Website dikembangkan untuk mendukung digitalisasi pelayanan klinik, mempermudah pengelolaan data oleh admin, serta meningkatkan akses informasi bagi pasien secara online.`,
+        link: "https://klinik-prima-medika.vercel.app/",
+      },
+      {
         name: "Platform UMKM",
         shortDesc: "Platform digital berbasis Next.js & Firebase",
         images: [
@@ -191,6 +231,31 @@ export default function ProjectsSection() {
       
       Tools yang digunakan:
       Canva `,
+      },
+      {
+        name: "Social Media Design – Fakultas Hukum UMP",
+        shortDesc: "Desain konten media sosial untuk publikasi akademik dan institusi",
+        images: [
+          "/projects/fh1.PNG",
+        ],
+        fullDesc: `Merancang berbagai konten media sosial resmi Fakultas Hukum Universitas Muhammadiyah Purwokerto untuk mendukung publikasi kegiatan akademik, seminar, pengumuman, prestasi mahasiswa, hari besar nasional, dan informasi institusi.
+      
+      Jenis desain yang dibuat meliputi:
+      - Poster seminar nasional dan internasional
+      - Pengumuman akademik
+      - Konten prestasi mahasiswa
+      - Hari besar nasional dan keagamaan
+      - Informasi kegiatan fakultas
+      - Konten media sosial Instagram
+      
+      Dalam proses pembuatan desain, setiap konten disesuaikan dengan kebutuhan serta arahan dari pihak fakultas. Variasi warna, tata letak, ilustrasi, maupun elemen visual mengikuti identitas dan konsep yang diminta oleh atasan sehingga tidak seluruh desain menggunakan gaya visual yang sama.
+      
+      Fokus utama pekerjaan adalah menghasilkan media informasi yang komunikatif, mudah dipahami, menarik secara visual, serta siap dipublikasikan melalui media sosial resmi fakultas.
+      
+      Tools:
+      - Canva
+      - Adobe Photoshop (basic)
+      - CapCut (untuk konten video sederhana)`
       },
     ],
     video: [
