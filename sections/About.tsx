@@ -642,7 +642,7 @@ className={`relative rounded-3xl overflow-hidden shadow-2xl transition-all durat
 
     <div className="rounded-2xl overflow-hidden shadow-2xl transition-all duration-700 group-hover:scale-105 group-hover:rotate-y-6">
       <Image
-        src="/tu.jpg"  
+        src="/tu1.jpg"  
         alt="Administrasi TU"
         width={400}
         height={300}
