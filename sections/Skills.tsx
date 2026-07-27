@@ -33,14 +33,14 @@ export default function Skills() {
   ];
 
   const skills = [
-    { name: "Pemrograman Aplikasi (Web & Mobile)", icon: <MdWeb /> },
-    { name: "UI/UX Design", icon: <MdDesignServices /> },
-    { name: "Pengolahan & Manajemen Data", icon: <HiOutlineDatabase /> },
-    { name: "Desain Grafis", icon: <FaLightbulb /> },
-    { name: "Manajemen Waktu", icon: <FaClock /> },
-    { name: "Kreativitas", icon: <FaLightbulb /> },
-    { name: "Komunikasi", icon: <FaUsers /> },
-    { name: "Kerja Sama Tim", icon: <FaUsers /> },
+    { name: "Application Development", icon: <MdWeb /> },
+    { name: "Digital Transformation", icon: <MdDesignServices /> },
+    { name: "Data Analysis & Management", icon: <HiOutlineDatabase /> },
+    { name: "Database Management", icon: <HiOutlineDatabase /> },
+    { name: "Problem Solving", icon: <FaLightbulb /> },
+    { name: "Time Management", icon: <FaClock /> },
+    { name: "Communication", icon: <FaUsers /> },
+    { name: "Team Collaboration", icon: <FaUsers /> },
   ];
   const skillSectionRef = useRef(null);
   const [showSkillSection, setShowSkillSection] = useState(false);

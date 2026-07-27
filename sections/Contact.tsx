@@ -64,7 +64,7 @@ export default function Contact() {
 
                 {/* Email */}
                 <motion.a
-                  href="mailto:dahliadila2314@gmail.com"
+                  href="mailto:dildaa2004123@gmail.com"
                   whileHover={{ scale: 1.03, x: 5 }}
                   initial={{ opacity: 0, x: -40 }}
                   whileInView={{ opacity: 1, x: 0 }}
@@ -77,7 +77,7 @@ export default function Contact() {
                   <div>
                     <h3 className="font-semibold">Email</h3>
                     <p className="text-sm opacity-70">
-                      dahliadila2314@gmail.com
+                      dildaa2004123@gmail.com
                     </p>
                   </div>
                 </motion.a>

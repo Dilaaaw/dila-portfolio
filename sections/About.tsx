@@ -16,7 +16,7 @@ export default function About() {
   const [displayText, setDisplayText] = useState("");
   const [showSkills, setShowSkills] = useState(false);
 
-  const fullText = `Selain pengembangan aplikasi, saya juga memiliki pengalaman dalam pengelolaan data dan administrasi digital menggunakan sistem berbasis teknologi. Terbiasa bekerja dengan data, dokumen, serta tools seperti Microsoft Office dan database untuk memastikan informasi tersusun rapi, akurat, dan mudah diakses. Saat ini saya terus mengembangkan kemampuan dalam pengembangan aplikasi dan solusi digital untuk mendukung efisiensi kerja.`;
+  const fullText = `Selain pengembangan aplikasi, saya juga memiliki pengalaman dalam pengelolaan data dan administrasi digital menggunakan sistem berbasis teknologi. Terbiasa bekerja dengan data, dokumen, serta tools seperti Microsoft Office untuk memastikan informasi tersusun rapi, akurat, dan mudah diakses. Saat ini saya terus mengembangkan kemampuan dalam pengembangan aplikasi dan solusi digital untuk mendukung efisiensi kerja.`;
   const eduRef = useRef(null);
   const [showEdu, setShowEdu] = useState(false);
   const [hasTyped, setHasTyped] = useState(false);
@@ -216,11 +216,10 @@ useEffect(() => {
   }`}
 >
               <p className="leading-relaxed text-lg">
-                Lulusan <span className="font-semibold text-pink-500">
+                Lulusan S1<span className="font-semibold text-pink-500">
                   Teknik Informatika
                 </span>{" "}
-                yang memiliki minat dalam pengembangan aplikasi web dan mobile,
-                pengelolaan data, dan administrasi digital. Terbiasa menggunakan teknologi seperti{" "}
+                yang memiliki pengalaman dalam pengembangan aplikasi, digitalisasi proses bisnis, pengelolaan data, dan administrasi berbasis digital. Terbiasa menggunakan teknologi seperti{" "}
                 <span className="font-semibold text-purple-500">
                   HTML, CSS, JavaScript, PHP
                 </span>{" "}
@@ -610,12 +609,13 @@ className={`relative rounded-3xl overflow-hidden shadow-2xl transition-all durat
     </p>
 
     <ul className="space-y-3 text-sm leading-relaxed">
-      <li>• Mengelola dan mengarsipkan dokumen administrasi akademik mahasiswa.</li>
-      <li>• Membantu proses surat-menyurat dan pelayanan administrasi fakultas.</li>
-      <li>• Input dan pengolahan data menggunakan sistem administrasi kampus.</li>
-      <li>• Memberikan pelayanan informasi kepada mahasiswa terkait kebutuhan administrasi.</li>
-      <li>• Mendukung kegiatan operasional Tata Usaha (TU) sehari-hari.</li>
-    </ul>
+  <li>• Mengelola digitalisasi dokumen dan administrasi akademik menggunakan sistem berbasis digital.</li>
+  <li>• Melakukan input, validasi, dan pengelolaan data administrasi secara akurat.</li>
+  <li>• Mengelola serta memperbarui website Fakultas Hukum sebagai media informasi.</li>
+  <li>• Menyusun laporan administrasi menggunakan Microsoft Excel dan Microsoft Word.</li>
+  <li>• Membuat desain publikasi dan konten media sosial menggunakan Canva.</li>
+  <li>• Berkolaborasi dengan berbagai unit kerja untuk meningkatkan efisiensi administrasi.</li>
+</ul>
 
     <div className="flex flex-wrap gap-2 mt-6">
       {["Administrasi", "Data Entry", "Pelayanan", "Dokumentasi", "Teamwork"].map((skill) => (
@@ -678,11 +678,12 @@ className={`relative rounded-3xl overflow-hidden shadow-2xl transition-all durat
         </p>
 
         <ul className="space-y-3 text-sm leading-relaxed">
-          <li>• Mengembangkan aplikasi layanan klinik berbasis mobile.</li>
-          <li>• Implementasi sistem <span className="font-semibold">CRUD</span>.</li>
-          <li>• Pengelolaan data administrasi.</li>
-          <li>• Kolaborasi tim.</li>
-        </ul>
+  <li>• Mengembangkan aplikasi mobile berbasis Flutter untuk digitalisasi layanan klinik.</li>
+  <li>• Merancang sistem pendaftaran pasien, dashboard admin, dan manajemen layanan.</li>
+  <li>• Mengelola database Firebase Firestore.</li>
+  <li>• Melakukan testing dan debugging aplikasi.</li>
+  <li>• Pengelolaan data administrasi.</li>
+</ul>
 
         <div className="flex flex-wrap gap-2 mt-6">
           {["Mobile App", "CRUD", "Testing", "Teamwork"].map((skill) => (
@@ -764,10 +765,10 @@ className={`relative rounded-3xl overflow-hidden shadow-2xl transition-all durat
         </p>
 
         <ul className="space-y-3 text-sm leading-relaxed">
-          <li>• Aktif di kegiatan teknologi.</li>
-          <li>• Ikut seminar & pelatihan.</li>
-          <li>• Event kampus.</li>
-        </ul>
+  <li>• Berpartisipasi dalam seminar dan pelatihan teknologi informasi.</li>
+  <li>• Mendukung pelaksanaan kegiatan dan event organisasi.</li>
+  <li>• Mengembangkan kemampuan komunikasi, kerja sama tim, dan kepemimpinan.</li>
+</ul>
 
         <div className="flex flex-wrap gap-2 mt-6">
           {["Leadership", "Event", "Public Speaking"].map((skill) => (

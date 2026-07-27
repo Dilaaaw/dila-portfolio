@@ -139,7 +139,7 @@ export default function Hero() {
     },
     {
       title: "DIGITAL OPERATONS & DATA SUPPORT",
-      desc: "Administrative & Data Support | IT & Digital Operations",
+      desc: "Application Development • Data Management • Digital Administration",
     },
     {
       title: "EXPERIENCES",
