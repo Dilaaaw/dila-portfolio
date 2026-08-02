@@ -83,6 +83,49 @@ export default function ProjectsSection() {
         link: "https://klinik-prima-medika.vercel.app/",
       },
       {
+        name: "LuckyMart7 – Point of Sale (POS)",
+        shortDesc: "Aplikasi kasir multi-satuan berbasis CodeIgniter 4 & MySQL",
+        images: [
+          "/projects/luckymart.png",
+          "/projects/luckymart1.png",
+          "/projects/luckymart2.png",
+          "/projects/luckymart3.png",
+          "/projects/luckymart4.png",
+          "/projects/luckymart5.png",
+          "/projects/luckymart6.png",
+        ],
+        fullDesc: `LuckyMart7 merupakan aplikasi Point of Sale (POS) berbasis web yang dikembangkan untuk membantu operasional toko retail mulai dari pengelolaan produk hingga transaksi penjualan.
+      
+      Fitur Utama:
+      - Login Multi User
+      - Dashboard Admin
+      - Manajemen Produk (CRUD)
+      - Manajemen Kategori
+      - Manajemen Supplier
+      - Manajemen Satuan Barang
+      - Multi Unit Produk (PCS, DUS, KG, LUSIN, dll)
+      - Barcode Search
+      - Sistem Keranjang (Cart)
+      - Perhitungan Otomatis Total & Kembalian
+      - Manajemen Stok Otomatis
+      - Riwayat Penjualan
+      - Riwayat Pembelian
+      - Cetak Struk
+      - Laporan Penjualan
+      - Responsive Interface
+      
+      Teknologi yang digunakan:
+      - CodeIgniter 4
+      - PHP 8
+      - MySQL / MariaDB
+      - Bootstrap 5
+      - JavaScript (Fetch API)
+      - HTML & CSS
+      
+      Pada proyek ini saya mengembangkan sistem POS lengkap dengan fitur multi-satuan barang menggunakan tabel relasi product_units sehingga satu produk dapat dijual dalam berbagai satuan seperti PCS, DUS, KG, maupun LUSIN dengan harga, barcode, dan faktor konversi yang berbeda.`,
+      github: "https://github.com/Dilaaaw/pos-retail-system-dila",
+      },
+      {
         name: "Platform UMKM",
         shortDesc: "Platform digital berbasis Next.js & Firebase",
         images: [
