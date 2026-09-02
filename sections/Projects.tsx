@@ -148,7 +148,7 @@ export default function ProjectsSection() {
     Tech: Next.js, React, Firebase`,
     github: "https://github.com/Dilaaaw/si-umkm",
   },
-    
+   /* 
   {
     name: "Website Profil Sekolah – SMP Muhammadiyah 2 Bolang",
     shortDesc: "Website profil sekolah berbasis JavaScript & Firebase",
@@ -182,6 +182,7 @@ export default function ProjectsSection() {
     
     link: "https://smpmuhammadiyah2bolang.sch.id/"
   },
+  */
   {
     name: "Aplikasi Layanan Klinik",
     shortDesc: "Aplikasi Flutter berbasis Firebase",
